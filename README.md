@@ -7,7 +7,7 @@ An industry-grade Machine Learning solution for predicting spot market rates (`p
 
 ---
 
-## 📌 Objective
+## Objective
 
 Predicting freight rates accurately requires balancing spatial geography (origin-destination corridors), temporal seasonality (weekly dispatch cycles), payload weight density, equipment capabilities, and spot market indicators.
 
@@ -20,7 +20,7 @@ This project delivers a complete, modular, and reproducible ML system:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 SpotterAI_Freight_Rate_Submission/
@@ -61,7 +61,7 @@ SpotterAI_Freight_Rate_Submission/
 
 ---
 
-## 🔬 Approach & Methodology
+## Approach & Methodology
 
 ### 1. Data Preprocessing & Leakage Prevention
 - Audited train and validation datasets for duplicate records, missing values, and extreme outliers.
@@ -95,7 +95,7 @@ $$\hat{y}_{ensemble} = 0.45 \cdot \hat{y}_{CatBoost} + 0.45 \cdot \hat{y}_{HistG
 
 ---
 
-## ⚡ Reproduction Guide
+## Reproduction Guide
 
 ### 1. Environment Setup
 ```bash
@@ -140,7 +140,7 @@ jupyter notebook notebooks/Freight_Rate_ML_Assessment.ipynb
 
 ---
 
-## 🎯 Key Deliverables
+## Key Deliverables
 
 1. **Validation Predictions:** [`outputs/validation_predictions.csv`](outputs/validation_predictions.csv)
    - Contains predictions for 12,000 loads (`load_id`, `predicted_rate`).
